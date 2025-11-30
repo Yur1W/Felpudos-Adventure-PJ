@@ -33,8 +33,8 @@ The exam consists of building a 2D game in Unity using only the assets made avai
 - [Prova Final](https://github.com/muriloboratto/assets-projeto-final-2D-unity?authuser=0)
 
 ## Links
-- **Playable Build:** (https://play.unity.com/en/games/3d723161-707d-4948-8d0a-8e1600da5247/felpudos-adventure)  
-- **Gameplay Video:** (YouTube or other platform link)
+- [**Playable Build:**](https://play.unity.com/en/games/3d723161-707d-4948-8d0a-8e1600da5247/felpudos-adventure)  
+- [**Gameplay Video:**](YouTube link)
 
 ## Collaborators
 - [Samuel Figueredo](https://github.com/DjTarma) Game Audio
