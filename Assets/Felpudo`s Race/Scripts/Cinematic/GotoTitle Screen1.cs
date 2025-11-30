@@ -10,7 +10,7 @@ public class GotoTitleScreen : MonoBehaviour
     {
 
     }
-    public void StartGame()
+    public void GoToTitleScreen()
     {
         SceneManager.LoadSceneAsync(0);
     }
