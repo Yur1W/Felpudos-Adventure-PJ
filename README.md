@@ -42,7 +42,7 @@ The exam consists of building a 2D game in Unity using only the assets made avai
 
 ## Links
 - [**Playable Build:**](https://play.unity.com/en/games/3d723161-707d-4948-8d0a-8e1600da5247/felpudos-adventure)  
-- [**Gameplay Video:**](YouTube link)
+- [**Gameplay Video:**](https://youtu.be/_1LLVrqwk0M)
 
 ## Collaborators
 - [Samuel Figueredo](https://github.com/DjTarma) - Game Audio
