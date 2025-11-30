@@ -2504,10 +2504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3024,7 +3024,7 @@ MonoBehaviour:
   Tomate: {fileID: 6985057852876346754, guid: 9e4f8c14e3e8d7140a70f947fb9f056b, type: 3}
   Banana: {fileID: 6553498121159557979, guid: a42a02ae7dc797e4aa442c2b30e7228c, type: 3}
   Melancia: {fileID: 131760750937558830, guid: da1424537cf37ee40999a485d8a72f67, type: 3}
-  intervalo: 3
+  intervalo: 3.5
   limiteX: 9.5
   limiteY: 4
   velocidade: 3
@@ -4215,7 +4215,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8d996b1208f7f174a973b37d6879065e, type: 3}
     m_FontSize: 78
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 160
@@ -4250,7 +4250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.035389, y: -0.00010681152}
+  m_AnchoredPosition: {x: -1, y: -0.00010681152}
   m_SizeDelta: {x: 238.3369, y: 59.7044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &827637821
@@ -4338,7 +4338,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519420034}
         m_TargetAssemblyTypeName: GotoTitleScreen, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: GoToTitleScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5055,7 +5055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.344213, y: 93}
+  m_AnchoredPosition: {x: 26.344213, y: 8}
   m_SizeDelta: {x: 332.5163, y: 100.6839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055097265
