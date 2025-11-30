@@ -43,6 +43,8 @@ public class Fl_Enemie : MonoBehaviour
         CheckGrounded();
         
         // Move towards player 
+        if (player != null)
+        {
             Vector2 targetPosition = new Vector2(player.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
             animator.Play("Walk");
@@ -60,13 +62,14 @@ public class Fl_Enemie : MonoBehaviour
             }
         
         // Jump if wall & grounded & cooldown over
-        if (IsWallAhead() && isGrounded && jumpCooldown <= 0f)
-        {
-            Jump();
-        }
-        if (playerScript.currentState == MoveFelpudo.PlayerState.jumping && jumpCooldown <= 0f)
-        {
-            Jump();
+            if (IsWallAhead() && isGrounded && jumpCooldown <= 0f)
+            {
+                Jump();
+            }
+            if (playerScript.currentState == MoveFelpudo.PlayerState.jumping && jumpCooldown <= 0f)
+            {
+                Jump();
+            }
         }
     }
     

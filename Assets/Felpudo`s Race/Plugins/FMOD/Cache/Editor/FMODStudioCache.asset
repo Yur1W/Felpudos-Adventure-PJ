@@ -35,11 +35,38 @@ MonoBehaviour:
   Path: ../../Uneb/Projeto MV/FMOD/Nova pasta/Build/Desktop/OST.bank
   Name: OST
   StudioPath: bank:/OST
-  lastModified: 638980544276951112
+  lastModified: 639000974912871915
   FileSizes:
   - Name: Desktop
-    Value: 649792
+    Value: 5727712
   Exists: 1
+--- !u!114 &-2892262787403084748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Fl Level 2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Fl Level 2
+  Guid:
+    Data1: 187492839
+    Data2: 1086720347
+    Data3: -1904433271
+    Data4: 2041604510
+  Banks:
+  - {fileID: -2956030989184792686}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66533
 --- !u!114 &-2395277793392598842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,18 +135,30 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 4952937267123988695}
   - {fileID: -2395277793392598842}
+  - {fileID: 3143174262638545120}
+  - {fileID: 5636658930713235498}
+  - {fileID: 3802938973898856081}
+  - {fileID: -2892262787403084748}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1465631648787047492}
   StringsBanks:
   - {fileID: 880827099969544904}
   cacheVersion: 131856
-  cacheTime: 638981425217688351
+  cacheTime: 639000974912871915
   SerializableEventsDict:
   - key: event:/Music/Level 1
     index: 0
   - key: event:/SFX Fruits/Item Get
     index: 1
+  - key: event:/Music/Fl Levl 1
+    index: 2
+  - key: event:/Music/Fl Level 3
+    index: 3
+  - key: event:/Music/FF Level 1
+    index: 4
+  - key: event:/Music/Fl Level 2
+    index: 5
 --- !u!114 &880827099969544904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,10 +174,10 @@ MonoBehaviour:
   Path: ../../Uneb/Projeto MV/FMOD/Nova pasta/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638981425212463517
+  lastModified: 639000971666127810
   FileSizes:
   - Name: Desktop
-    Value: 988
+    Value: 1182
   Exists: 1
 --- !u!114 &1465631648787047492
 MonoBehaviour:
@@ -155,11 +194,65 @@ MonoBehaviour:
   Path: ../../Uneb/Projeto MV/FMOD/Nova pasta/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638981425212445569
+  lastModified: 639000971666117810
   FileSizes:
   - Name: Desktop
     Value: 1232
   Exists: 1
+--- !u!114 &3143174262638545120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Fl Levl 1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Fl Levl 1
+  Guid:
+    Data1: 365761794
+    Data2: 1145142962
+    Data3: -1437503560
+    Data4: 743217481
+  Banks:
+  - {fileID: -2956030989184792686}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70752
+--- !u!114 &3802938973898856081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/FF Level 1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/FF Level 1
+  Guid:
+    Data1: 1452277138
+    Data2: 1187609293
+    Data3: -501747294
+    Data4: 888093576
+  Banks:
+  - {fileID: -2956030989184792686}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 79908
 --- !u!114 &4952937267123988695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,3 +280,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48000
+--- !u!114 &5636658930713235498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Fl Level 3
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Fl Level 3
+  Guid:
+    Data1: -2021195225
+    Data2: 1189941705
+    Data3: 169347470
+    Data4: -1432251651
+  Banks:
+  - {fileID: -2956030989184792686}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 164257

@@ -26,7 +26,7 @@ public class FFGameController : MonoBehaviour
         uiManager.ShowTutorial();
         gameEnded = false;
         PlayerAlive = true;
-        enemiesKilled = 24;
+        enemiesKilled = 0;
         StartCoroutine(uiManager.HideTutorialAfterDelay());
     }
 

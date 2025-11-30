@@ -2204,7 +2204,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519420034}
         m_TargetAssemblyTypeName: GotoTitleScreen, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: GoToTitleScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3183,7 +3183,7 @@ MonoBehaviour:
   Tomate: {fileID: 6985057852876346754, guid: 9e4f8c14e3e8d7140a70f947fb9f056b, type: 3}
   Banana: {fileID: 6553498121159557979, guid: a42a02ae7dc797e4aa442c2b30e7228c, type: 3}
   Melancia: {fileID: 131760750937558830, guid: da1424537cf37ee40999a485d8a72f67, type: 3}
-  intervalo: 3
+  intervalo: 3.5
   limiteX: 9.5
   limiteY: 4
   velocidade: 3
@@ -4663,7 +4663,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519420034}
         m_TargetAssemblyTypeName: GotoTitleScreen, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: GoToTitleScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

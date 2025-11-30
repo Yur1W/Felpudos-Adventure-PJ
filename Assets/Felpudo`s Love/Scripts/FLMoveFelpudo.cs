@@ -48,15 +48,16 @@ public class MoveFelpudo : MonoBehaviour
 		jumpInput = Input.GetKey(KeyCode.Space);
 		
 		Debug.DrawRay(transform.position, Vector2.down * groundCheckDistance, Color.red);
+		Debug.DrawRay(transform.position, Vector2.right * moveInput, Color.blue);
 		ChangeDirection();
 	}
 	bool GroundCheck()
 	{
-		return Physics2D.CircleCast(transform.position, 0.12f, Vector2.down, groundCheckDistance, LayerMask.GetMask("Ground"));
+		return Physics2D.CircleCast(transform.position, 0.18f, Vector2.down, groundCheckDistance, LayerMask.GetMask("Ground"));
 	}
 	bool BoxCheck()
 	{
-		return Physics2D.CircleCast(transform.position, 0.12f, Vector2.down, groundCheckDistance, LayerMask.GetMask("Box"));
+		return Physics2D.CircleCast(transform.position, 0.18f, Vector2.down, groundCheckDistance, LayerMask.GetMask("Box"));
 	}
 	void EnemyCheck()
     {
@@ -220,6 +221,11 @@ public class MoveFelpudo : MonoBehaviour
 		{
 			TakeDamage();
 		}
+	}
+	void OnDrawGizmosSelected()
+	{
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(transform.position + Vector3.down * groundCheckDistance, 0.18f);
 	}
 
 }

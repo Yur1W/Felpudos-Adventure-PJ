@@ -30,22 +30,28 @@ public class FLGameController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   if (player.GetComponent<MoveFelpudo>().enabled == true)
+    {   if (player != null)
         {
-            Timer -= Time.deltaTime;
+            
+        
+            if (player.GetComponent<MoveFelpudo>().enabled == true)
+            {
+                Timer -= Time.deltaTime;
+            }
+        
+            uiManager.UpdateLives(Lives); 
+            uiManager.UpdateScore(Score);
+            uiManager.UpdateTimer(Timer);
+            if (Lives <= 0 || Timer <= 0f)
+            {
+                uiManager.ShowLoseScreen();
+                player.GetComponent<MoveFelpudo>().enabled = false;
+                Destroy(player);
+            }
+            if (levelEnded)
+            {
+                uiManager.ShowWinScreen();
+            }
         }
-       uiManager.UpdateLives(Lives); 
-       uiManager.UpdateScore(Score);
-       uiManager.UpdateTimer(Timer);
-         if (Lives <= 0 || Timer <= 0f)
-         {
-          uiManager.ShowLoseScreen();
-          player.GetComponent<MoveFelpudo>().enabled = false;
-          Destroy(player);
-         }
-         if (levelEnded)
-         {
-          uiManager.ShowWinScreen();
-         }
     }
 }
