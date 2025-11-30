@@ -30,7 +30,7 @@ The exam consists of building a 2D game in Unity using only the assets made avai
 - Ensuring that each stage contributes to the overall progression of the game.
 
 ## References
-- (Add here any books, articles, videos or tutorials used during development.)
+- [Prova Final](https://github.com/muriloboratto/assets-projeto-final-2D-unity?authuser=0)
 
 ## Links
 - **Playable Build:** (https://play.unity.com/en/games/3d723161-707d-4948-8d0a-8e1600da5247/felpudos-adventure)  
