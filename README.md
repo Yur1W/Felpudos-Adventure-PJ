@@ -1,7 +1,8 @@
 #  Felpudo`s Adventure – Trabalho Final  
 ## - Programação de Jogos -
 
-<img width="844" height="478" alt="image" src="COLOQUE_A_IMAGEM_DO_JOGO_AQUI" />
+<img width="1298" height="687" alt="image" src="https://github.com/user-attachments/assets/08350a15-5802-439f-bf76-9a0e2e732693" />
+
 
 ## Overview
 This project aims to demonstrate my capabilities in creating a complete 2D game in Unity, using a predefined set of assets provided by the professor. It is the final practical exam for the **Programação de Jogos** course and is used to assess our understanding and application of concepts studied in class, such as 2D game structure, visual presentation, narrative, and game design. This project becomes an important milestone in our development as game designers and programmers.
