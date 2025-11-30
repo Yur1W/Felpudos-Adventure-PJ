@@ -37,7 +37,7 @@ The exam consists of building a 2D game in Unity using only the assets made avai
 - [**Gameplay Video:**](YouTube link)
 
 ## Collaborators
-- [Samuel Figueredo](https://github.com/DjTarma) Game Audio
+- [Samuel Figueredo](https://github.com/DjTarma) - Game Audio
 
 ## Advisor
 - [Murilo Boratto](https://github.com/muriloboratto)
