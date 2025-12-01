@@ -13,7 +13,7 @@ Felpudo was living a peaceful moment in the jungle alongside his girlfriend Fofu
 With the stolen plane, Felpudo flies straight to Iruca’s Empire, a territory completely controlled by the villain. When he arrives, he finds a car and turns to a high-speed chase through the empire’s lands. After facing Iruca in a final showdown, Felpudo defeats him and frees Fofura, reuniting the couple and thwarting, the villan’s plans.
 
 ## Game Design
-The Game consists of 3 main gameplay stiles, Felpudo`s Love (Plataformer), Felpudo`s Flight (Bullet Hell), Felpudo`s Race (Infinity Runner), with each one representeing a milestone in felpudo`s adventure to rescue his girlfriend.
+The Game consists of 3 main gameplay stiles, Felpudo`s Love (Plataformer), Felpudo`s Flight (Shoot em Up), Felpudo`s Race (Infinity Runner), with each one representeing a milestone in felpudo`s adventure to rescue his girlfriend.
 
 ## What is the Exam about?
 The exam consists of building a 2D game in Unity using only the assets made available by the professor as the base for environments, characters and interface elements. After development, the project must be presented in a seminar, where the final product will be evaluated according to the following:
